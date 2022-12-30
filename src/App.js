@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p style={{marginBottom:30}}>
-          Betsven
+          Betsven!
         </p><br/>
         <BrowserRouter>
           <Routes>
