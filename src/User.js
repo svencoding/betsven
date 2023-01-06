@@ -76,7 +76,7 @@ export function UserPage() {
         <div style={{border:'3px solid red',marginBottom:30,padding:20}}>
           ¡Listo!
           <div>
-            Ahora solo envía un YAPE al número +51949215429 con el código "{id}" como mensaje,
+            Ahora solo envía un YAPE al número +51949215428 con el código "{id}" como mensaje,
             procura hacerlo antes de que acabe el tiempo de una de tus selecciones
           </div>
           <div style={{marginTop:30}}>
@@ -101,7 +101,7 @@ export function UserPage() {
                 return <div>{e.name} - {e.stake}</div>
               })
               }
-              <div>Stake: {cuponMultiplier}</div>
+              <div>Stake: {cuponMultiplier.toFixed(2)}</div>
             <button onClick={()=>handlePutBet()} style={{padding:10}}>Colocar apuesta</button>
           </div>
         }
