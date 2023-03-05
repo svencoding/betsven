@@ -32,3 +32,28 @@
     transform: rotate(360deg);
   }
 }
+
+.paint {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, #f00, #f90, #ff0, #0f0, #00f, #609, #906, #f09, #f00);
+  animation: paint 3s infinite;
+}
+
+@keyframes paint {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100%, 0);
+  }
+  50% {
+    transform: translate(100%, 100%);
+  }
+  75% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

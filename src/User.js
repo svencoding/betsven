@@ -102,7 +102,6 @@ export function UserPage() {
               })
               }
               <div>Stake: <span style={{textDecoration:'line-through'}}>{(cuponMultiplier*1).toFixed(2)}</span></div>
-              <div style={{fontWeight:'bold'}}>Nos volvimos locos! ¡Nueva cuota!: <span>{(cuponMultiplier*1*1.1).toFixed(2)}</span></div>
             <button onClick={()=>handlePutBet()} style={{padding:10}}>Colocar apuesta</button>
           </div>
         }

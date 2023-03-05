@@ -34,6 +34,13 @@ export function Terms() {
           En caso de sospechar colusión o conductas indebidas, Betsven tiene el derecho de cancelar cualquier tipo
           de apuesta por motivos de fraude.
 
+        -<h3>Especificaciones</h3>
+
+        "Morir" - estar dormido/inactivo en el tono por más de 25 minutos o estar inconsciente
+        "Estar sin polo" - estar sin polo al menos 30 minutos en el tono
+        "Levantar" - Chapar o más
+        
+
           
     </div>
   );

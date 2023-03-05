@@ -24,12 +24,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p style={{marginBottom:30}}>
+        <div style={{marginBottom:30}}>
           Bienvenido a Betsven!
-        </p><br/>
+        </div>
+        <div className="paint">
+            Edición PAINT
+        </div>
+        
+        <br/>
+
         <BrowserRouter>
           <Routes>
-            <Route path="/admin123" element={<AdminPage/>}/>
+            <Route path="/admins" element={<AdminPage/>}/>
             <Route path="/" element={<UserPage/>}/>
             <Route path="/terms" element={<Terms/>}/>
           </Routes>
