@@ -8,6 +8,7 @@ import { Terms } from './Terms'
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyC2jlpxmLSItDDhIYel_zOI66vHydJlqiM",
   authDomain: "betsven-be96c.firebaseapp.com",
@@ -24,20 +25,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{marginBottom:30}}>
+        <div style={{ marginBottom: 30 }}>
           Bienvenido a Betsven!
         </div>
-        <div className="paint">
-            Edición PAINT
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
+          <div >
+            Edición Cumple Julio
+          </div>
+          <img src={require('./carajulio.png')} style={{ height: 80, width: 60, marginLeft: 20 }} alt="logo" />
         </div>
-        
-        <br/>
+        <br />
 
         <BrowserRouter>
           <Routes>
-            <Route path="/admins" element={<AdminPage/>}/>
-            <Route path="/" element={<UserPage/>}/>
-            <Route path="/terms" element={<Terms/>}/>
+            <Route path="/admins" element={<AdminPage />} />
+            <Route path="/" element={<UserPage />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </BrowserRouter>
       </header>
