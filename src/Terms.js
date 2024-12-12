@@ -46,7 +46,6 @@ export function Terms() {
       "Levantar" - Chapar o más
 
 
-
     </div>
   );
 }
