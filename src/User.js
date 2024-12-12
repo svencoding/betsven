@@ -110,7 +110,7 @@ export function UserPage() {
       }
 
       <div style={{ fontSize: 16, marginBottom: 20 }}>
-        El equipo principal de la fecha: Julio, DLC, Erich, Falcone, Cubo, Chale, Emilio, Sven*
+        El equipo principal de la fecha: Julio, DLC, Erich, Falcone, Cubo, Chale, Emilio, Sven, Mariano, Martell, Santi
       </div>
       {totalBets.sort((a, b) => moment(b.date, 'DD-MM-YYYY') - moment(a.date, 'DD-MM-YYYY')).map((e) => {
         if (moment().diff(moment(e.date, 'DD-MM-YYYY'), 'hours') > 24) {
